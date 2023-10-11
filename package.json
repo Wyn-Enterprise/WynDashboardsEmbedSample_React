@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@grapecity/wyn-integration": "6.1.2",
+    "@grapecity/wyn-integration": "^7.0.40",
     "@types/node": "^12.0.0",
     "@types/react-dom": "^16.9.0",
     "bootstrap": "^4.5.3",
