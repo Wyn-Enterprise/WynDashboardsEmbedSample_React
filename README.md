@@ -17,9 +17,9 @@ This sample requires:
 4. Run 'npm run start'
 
 ### Wyn Enterprise System Configurations for API usage
-1. On the Administrator Portal after installing Wyn Enterprise, open the System Configuration Page. 
-2. Add http://localhost:3000 (or the host application URL) in the "Allowed CORS Origins" section. 
-3. Add 'content-disposition' and 'location' in the "Exposed Headers" section. 
+1. On the Administrator Portal after installing Wyn Enterprise, open the System Configuration Page.
+2. Add http://localhost:3000 (or the host application URL) in the "Allowed CORS Origins" section.
+3. Add 'content-disposition' and 'location' in the "Exposed Headers" section.
 
 ### About semantic versioning
 
