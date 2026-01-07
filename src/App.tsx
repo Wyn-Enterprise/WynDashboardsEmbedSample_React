@@ -1,5 +1,5 @@
 import * as React from 'react';
-import './styles/App.scss';
+import './styles/App.css';
 import { getDashboardList } from './components/library/index';
 import DashboardsList from './components/dashboards-list/DashboardsList';
 import SignIn from './components/sign-in/Sign-In';
@@ -32,7 +32,7 @@ export default class App extends React.Component<any, any> {
         this.createDesigner = this.createDesigner.bind(this);
     }
 
-    selectedDashboard = (dashboardId, name) => {        
+    selectedDashboard = (dashboardId, name) => {
         this.dashboardId = dashboardId;
         this.dashboardName = name;
         this.ins?.destroy?.();
@@ -57,12 +57,12 @@ export default class App extends React.Component<any, any> {
             // for v5.0, v5.1 ignore
             //version: '5.0.21782.0',
         }, '#wyn-root').then(ins => {
-            this.ins = ins;            
+            this.ins = ins;
         });
     }
 
     createNewDashboard = () => {
-        this.ins?.destroy?.();       
+        this.ins?.destroy?.();
         this.dashboardId = '';
         this.createDesigner();
     }
@@ -117,7 +117,7 @@ export default class App extends React.Component<any, any> {
                             </div>
                             <div className="app-sidebar-content">
                                 <DashboardsList selectedDashboard={this.selectedDashboard} dashboardsList={dashboardsList} />
-                            </div>                            
+                            </div>
                         </div>
                         <div id='wyn-root'></div>
                     </div>

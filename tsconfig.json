@@ -3,11 +3,14 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": false,
-    "target": "es6",
+    "target": "ESNext",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
+    ],
+    "types": [
+      "vite/client"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,7 +23,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react",
+    "jsx": "react-jsx",
     "noFallthroughCasesInSwitch": true
   },
   "include": [

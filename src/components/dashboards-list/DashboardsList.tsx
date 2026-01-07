@@ -1,19 +1,19 @@
 import * as React from "react";
-import "../../styles/DashboardsList.scss";
+import "../../styles/DashboardsList.css";
 
 export default class DashboardsList extends React.Component<any, any> {
 
     dashboardIconSrc = "/images/dashboard.svg";
 
     constructor(props) {
-        super(props);       
+        super(props);
     }
 
     getIconSrc = (rpt: any) => {
         return this.dashboardIconSrc;
     }
 
-    onDashboardClick = (dbd) => {        
+    onDashboardClick = (dbd) => {
         this.props.selectedDashboard(dbd.id, dbd.name);
     }
 
