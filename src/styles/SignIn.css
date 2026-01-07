@@ -1,0 +1,88 @@
+#sign-in-root {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-app);
+    padding: 1rem;
+}
+
+.sign-in-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 2.5rem;
+    background-color: var(--bg-panel);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-xl);
+    border: 1px solid var(--border-color);
+}
+
+.sign-in-form h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.sign-in-control {
+    margin-bottom: 1.5rem;
+}
+
+.org-form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.sign-in-input,
+select.sign-in-input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: var(--bg-input);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    color: var(--text-primary);
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+    /* Ensure padding doesn't affect width */
+}
+
+.sign-in-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 1rem;
+    background-color: var(--color-primary);
+    color: var(--text-on-primary);
+    border: none;
+    border-radius: var(--border-radius-md);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.sign-in-button:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.sign-in-button:active {
+    transform: translateY(1px);
+}
+
+.sign-in-error {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: var(--border-radius-md);
+    background-color: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #ef4444;
+    font-size: 0.875rem;
+    text-align: center;
+}

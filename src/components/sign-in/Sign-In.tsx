@@ -1,5 +1,5 @@
 import * as React from "react";
-import '../../styles/SignIn.scss';
+import '../../styles/SignIn.css';
 
 export default class SignIn extends React.Component<any, any> {
 
