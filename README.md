@@ -13,7 +13,7 @@ This sample requires:
 
 1. Open your terminal and go to the root directory WynDashboardsEmbedSample_React
 2. Run `npm install`
-3. Run `npm update @wynenterprise/wyn-integration --latest`
+3. Run `npm update @wynenterprise/wyn-integration`
 4. Run 'npm run start'
 
 ### Wyn Enterprise System Configurations for API usage
